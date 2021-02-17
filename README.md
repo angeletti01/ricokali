@@ -1,0 +1,2 @@
+# ricokali
+Educational Use
