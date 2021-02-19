@@ -1,0 +1,93 @@
+/*
+This is a external style sheet. You can specify styles here for your elements - AND you you can reuse
+this stylesheet across multiple HTML documents. 
+
+When we apply styles to our web elements, we use CSS selectors. There are various ways to select elements. you can do so by: tag name, id name (IDs are uniqe ways of locating web elements), class names (you can specify classes and group elements using thos classes). 
+*/
+
+input, button{
+    /*
+    px (pixel), em, or %?
+
+    px or pixels is a static measurement. It doesn't change based on the elements relative to it. The size
+    is fixed.
+
+    em and % are relative measurements. The 'em' specifies that an element's size, should be relative to the font size being used. The '%' is also relative, but it specifies that the size of an element is relative to the parent element's size. 
+    */
+    border-radius: 0.5em;
+    width: 20em;
+    height: 3em;    
+}
+
+button /*This will override the stying of the other botton element above.*/
+{
+    background-color: rgb(145, 160, 145);
+}
+/*In order to select an element by its class, use the class name preceded by a "."*/
+.container 
+{
+    margin: auto;
+    
+  width: 50%;
+  border: 3px solid rgb(39, 25, 165);
+  border-style:none;
+  padding: 100px 0;
+  text-align: center;
+}
+/*# denotes form id. In order to select an element by its id, use the id name preceded by the "#" symbol.*/
+#formDiv, #form, #employeeLogin, #managerLogin,#row, #name, #email, #message
+{
+    margin: auto;
+    text-align: center; /*moves the text into the center inside formDiv*/
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.15em;
+    border-style:ridge;
+    border-width: 0.15em;
+    padding: .5px;
+    background-color: rgb(235, 234, 243);
+}
+
+   
+    #message, #row
+    {
+        width: 30em;
+        height: 10em;
+        text-align: center;
+    } 
+
+    h2
+    {
+        text-align: center;
+        color:orange;
+    }
+    #header
+    {
+        text-align: center;
+        color:orange;
+    }
+
+    .buttonMan
+    {
+        font: bold 11px Arial;
+        text-decoration: none;
+        background-color: #EEEEEE;
+        color: #333333;
+        padding: 2em;
+        border-top: 1em solid #CCCCCC;
+        border-right: 1em solid #333333;
+        border-bottom: 1em solid #333333;
+        border-left: 1em solid #CCCCCC; 
+    }
+    .buttonEmp, .empReview, .empSubmit, .orderedList
+    {
+        font: bold 11px Arial;
+        text-decoration: none;
+        background-color: #EEEEEE;
+        color: #333333;
+        padding: 2em;
+        border-top: 1em solid #CCCCCC;
+        border-right: 1em solid #333333;
+        border-bottom: 1em solid #333333;
+        border-left: 1em solid #CCCCCC; 
+    }
