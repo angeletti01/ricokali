@@ -23,6 +23,7 @@ public class DispatcherServlet extends HttpServlet
 		 * */
 		final String URI = request.getRequestURI();
 		LOG.debug(URI);
+		LOG.error("get request executed" );
 		
 		response.getWriter().write("dispatcher is populating the response body");
 		
