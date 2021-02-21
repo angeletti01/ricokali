@@ -17,7 +17,11 @@
   
   <servlet-mapping>
  <servlet-name>DispatcherServlet</servlet-name>
- <url-pattern>/dispatcher/*</url-pattern> <!--  with the wildcard symbol this servlet will handle multiple requests -->  
+ <url-pattern>/dispatcher</url-pattern> <!--  with the wildcard symbol this servlet will handle multiple requests -->  
   </servlet-mapping>
+  
+ 
+  
+  
 
 </web-app>
