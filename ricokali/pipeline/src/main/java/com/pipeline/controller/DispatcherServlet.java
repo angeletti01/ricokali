@@ -124,10 +124,11 @@ public class DispatcherServlet extends HttpServlet
 		String htmlResponse = "<html>";
 		htmlResponse += "\n <h2> Name: " + name + "</h2>";
 		htmlResponse += "\n <h2> Email:  " + email + "</h2>";
-		htmlResponse += "\n <h2> Message:  " + email + "</h2>";		
+		htmlResponse += "\n <h2> Message:  " + message + "</h2>";		
 		htmlResponse += "</html>";
 		
 		writer.println(htmlResponse);
+		 getServletContext().getRequestDispatcher("/message.html").forward(request, response);
 	} // end doPost method
 		
 	@Override
