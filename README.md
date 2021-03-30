@@ -1,9 +1,9 @@
 # Family Pets
 
-## Description:
+## Description
 Family-Pets is a web application that brings pet buyers and pet breeders together to conduct business. It is an online marketplace that allows pet buyers to make requests for breeders to accept and breed the specified breed. Buyers and breeders are able to view the different requests on the site and manage their own information.
 
-## Project goal:
+## Project goal
 Our goal is to disrupt the pet farming bussiness. Our research shows concerns of the breeding environment of those large pet farms as well as the concern of over breeding. Our research also shows rising demand of family bred pets. That's why we invented this on-demand pet breeding marketplace - Family Pets.
 
 ## Contributors
@@ -12,7 +12,7 @@ Our goal is to disrupt the pet farming bussiness. Our research shows concerns of
 -James Olas
 -Micheal Ball
 
-## My roles in this project:
+## My roles in this project
 All contributors are involed with basically everything. We spread the work almost evenly. Also, a lot of work were done through peer programming.
 
 ## Project Management
@@ -26,7 +26,7 @@ QA
 Debug
 Project presentation
 
-## User stories/ features:
+## User stories/ features
 Buyer logs in.
 Buyer views customer information.
 Buyer changes customer information.
@@ -44,11 +44,11 @@ Breeder accepts pending requests.
 Breeder logs out.
 Buyer and breeder can chat through a request.
 
-## Future Development:
+## Future Development
 Breeder uploads photo of the babies.
 Buyer views uploaded photo.
 
-## Technologies Used/ Environment:
+## Technologies Used/ Environment
 Log4j - 1.2.17
 JUnit - 5.4.2
 Mokito - 3.7.7
@@ -68,7 +68,7 @@ Visual Studio Code
 Spring Framework / Spring boot
 Language used - Java 8, SQL, XML, JavaScript, HTML, CSS, TypeScript
 
-## Getting Started:
+## Getting Started
 Download and install development tools. (Spring Tool Suite, Dbeaver, Gitbash, Tomcat 8.5, VS code, Node.js)
 Open Git bash on the location that you want your BACK end project folder to be.
 In the Git bash CLI, enter the command 'git clone https://github.com/angeletti01/ricokali/edit/projects.git'.
