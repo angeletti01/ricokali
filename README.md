@@ -7,10 +7,10 @@ Family-Pets is a web application that brings pet buyers and pet breeders togethe
 Our goal is to disrupt the pet farming bussiness. Our research shows concerns of the breeding environment of those large pet farms as well as the concern of over breeding. Our research also shows rising demand of family bred pets. That's why we invented this on-demand pet breeding marketplace - Family Pets.
 
 ## Contributors
--Rico-kali Hayes
--Hon Pan Loi
--James Olas
--Micheal Ball
+- Rico-kali Hayes
+- Hon Pan Loi
+- James Olas
+- Micheal Ball
 
 ## My roles in this project
 All contributors are involed with basically everything. We spread the work almost evenly. Also, a lot of work were done through peer programming.
