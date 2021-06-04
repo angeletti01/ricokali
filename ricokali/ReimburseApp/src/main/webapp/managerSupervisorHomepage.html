@@ -1,0 +1,47 @@
+<!--We should always start with our document type declaration. -->
+<!DOCTYPE html>
+
+<!--HTML is markup language that uses tags to denote what type of content is being represented. The outermost tag (the root tag) of an HTML document is the <html> tag.-->
+<html>
+    <!--An HTML document has both a head and a body. The head contains metadata about the document.-->
+    <head>
+        <title>Manager Supervisor Homepage</title>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="./reimbursement.css"></link> 
+        <link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!-- Optional theme -->
+
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+        <style>
+            h1{
+                color: rgb(12, 18, 82);
+            }
+        </style>
+    </head>
+    <!--The body contains elements which the client can actually see and interact with.-->
+    <body style="background-color: rgb(168, 200, 221);">
+        <!--We use divs to "div"-ide the page into different sections.-->
+        <div class="container">
+            <div id="col-md-6 col-md-offset-3">
+                <h2>Manager Supervisor Reimbursement Homepage</h2>
+                <h3>Please make a selection</h3>
+            </div>
+           <div id="formDiv">
+                <form id="form" onmouseover= onmouseoverwelcomeEvent() onmouseout= onmouseoutwelcomeEvent()>
+                  
+                    <a href="./managerReviewRequest.html" class="buttonMan">View Manager Requests</a>
+                    <a href="./employeeReviewRequest.html" class="buttonMan">View Employee Requests</a>
+                    <a href="./listOfManagers.html" class="buttonMan">View List of Managers</a>
+                    <a href="./listOfEmployees.html" class="buttonMan">View List of Employees</a>
+                </form> 
+            </div> 
+        </div>
+        <!--We can use the style tag to apply styles. This is better than inline CSS, but it's still limited because you can't reuse these styles in other HTML documents.-->
+        
+        <!--We are referencing an external JS file at the bottom of this document. Note that we do so here because we want to make sure that all elements are rendered before we attempt to select and manipulate them.-->
+        <script src="./welcome.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    </body>
+</html>

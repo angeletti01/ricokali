@@ -1,0 +1,54 @@
+<!--We should always start with our document type declaration. -->
+<!DOCTYPE html>
+
+<!--HTML is markup language that uses tags to denote what type of content is being represented. The outermost tag (the root tag) of an HTML document is the <html> tag.-->
+<html>
+    <!--An HTML document has both a head and a body. The head contains metadata about the document.-->
+    <head>
+    <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Welcome to the Reimbursement Website!</title>
+         <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" > 
+        <!-- Optional theme -->
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" >
+        
+        <link rel="stylesheet" href="./reimbursement.css"></link> 
+   
+    </head>
+    <!--The body contains elements which the client can actually see and interact with.-->
+    <body style="background-color: rgb(100, 200, 221);">
+        <!--We use divs to "div"-ide the page into different sections.-->
+        <div class="container">
+            <div id="message">
+                <h2>Employee Reimbursement</h2>
+                <h3>Because we care!</h3>
+            </div>
+           <div id="formDiv">
+                <form id="form" onmouseover= onmouseoverwelcomeEvent() onmouseout= onmouseoutwelcomeEvent()>
+                  <!--  <button id = empWelcomeButton>Employee Login</button> -->
+                    <a href="./employeeLogin.html" class="buttonEmp">Existing Employee</a>
+                   <!-- <button id = manWelcomeButton>Manager Login</button> -->
+                    <a href="./managerLogin.html" class="buttonMan">Existing Manager</a>
+                        <!-- <button id = manSupWelcomeButton>Manager Supervisor Login</button> -->
+                    <a href="./managerSupervisorLogin.html" class="buttonManSup">Existing Manager Supervisor</a>
+                    <!--  <button id = empWelcomeButton>Employee Register</button> -->
+                    <a href="./employeeRegistration.html" class="buttonEmp">Register Employee</a>
+                   <!-- <button id = manWelcomeButton>Manager Register</button> -->
+                    <a href="./managerRegistration.html" class="buttonMan">Register Manager</a>
+                    <!-- <button id = manSupWelcomeButton>Manager Supervisor Register</button> -->
+                    <a href="./managerSupervisorRegister.html" class="buttonManSup">Register Manager Supervisor</a>      
+                    
+                    
+                </form> 
+            </div> 
+        </div>
+        <!--We can use the style tag to apply styles. This is better than inline CSS, but it's still limited because you can't reuse these styles in other HTML documents.-->
+        
+        <!--We are referencing an external JS file at the bottom of this document. Note that we do so here because we want to make sure that all elements are rendered before we attempt to select and manipulate them.-->
+        <script src="./welcome.js"></script>
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    </body>
+</html>
