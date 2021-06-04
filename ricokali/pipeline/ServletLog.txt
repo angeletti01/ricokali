@@ -1,7 +1,0 @@
-2021-02-20 12:26:15,925 DEBUG c.p.c.DispatcherServlet [http-nio-8080-exec-2] /Pipeline/dispatcher/*
-2021-02-20 12:26:15,955 ERROR c.p.c.DispatcherServlet [http-nio-8080-exec-2] Car Make Entered
-2021-02-20 16:51:46,475 DEBUG c.p.c.DispatcherServlet [http-nio-8080-exec-2] /Pipeline/dispatcher/*
-2021-02-20 16:55:30,291 DEBUG c.p.c.DispatcherServlet [http-nio-8080-exec-2] /Pipeline/dispatcher/*
-2021-02-20 16:56:30,067 DEBUG c.p.c.DispatcherServlet [http-nio-8080-exec-5] /Pipeline/dispatcher/*
-2021-02-20 16:57:21,734 DEBUG c.p.c.DispatcherServlet [http-nio-8080-exec-2] /Pipeline/dispatcher/*
-2021-02-20 16:57:51,799 DEBUG c.p.c.DispatcherServlet [http-nio-8080-exec-2] /Pipeline/dispatcher/*
