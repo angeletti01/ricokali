@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>List of Employees</title>
+<link rel="stylesheet" href="./reimbursement.css"></link>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!-- Optional theme -->
+
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+<style>
+h1 {
+	color: rgb(12, 18, 82);
+}
+</style>
+</head>
+<body style="background-color: rgb(168, 200, 221);">
+	<div class="container">
+		<div class="col-md-6 col-md-offset-3">
+			<h1>Manager List</h1>
+			<hr>
+			<p>Input information Below</p>
+			<div id="form-div">
+				<form name="listOfManagers" method=get
+					action="ManagerListController">
+					<input type="number" id="manager_supervisor_id"
+						placeholder="Manager Supervisor ID Number" name="manager_supervisor_id" /> 
+						<input	type="submit" class="btn btn-primary" value="Submit" />
+				</form>
+			</div>
+		</div>
+	</div>
+	<script src="./welcome.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</body>
+</html>
