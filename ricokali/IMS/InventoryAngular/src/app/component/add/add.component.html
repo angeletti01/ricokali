@@ -1,0 +1,33 @@
+
+<h3 style="color: aliceblue;"> Add a Product</h3>
+
+<div>
+    <form (ngSubmit) = "onSubmit(); productForm.resetForm()" #productForm="ngForm">
+        <div class="form" >        
+        <label style="color: aliceblue;" for="id">Product ID:</label>
+        <input type="number"  
+        id="product_id"        
+        placeholder="Product ID"
+        [(ngModel)] ="product.product_id"  name="product_id" >
+    </div>
+    <div class="form" >
+        <label style="color: aliceblue;" for="product_name" >Product Name:</label>
+        <input type="text"   
+        id="product_name"          
+        placeholder="Name of Product" 
+        [(ngModel)] ="product.product_name" name="product_name">
+    </div>
+    <div hidden="!productName.pristine" class="form">Product Name Required</div>
+    <div class="form">
+        <label style="color: aliceblue;" for="quantity" >Product Quantity:</label>
+        <input type="number" 
+        id="quantity"         
+        placeholder="Quantity of Product" 
+        [(ngModel)] ="product.quantity" name="quantity" >
+    </div>
+    <div hidden="!quantity.pristine" class="alert alert-danger">Product Quantity Required</div>
+    <button class="submit" type="submit" 
+    >Submit</button>
+    </form>
+</div>
+
